@@ -36,7 +36,7 @@ The [Premium version of the Footnotes Plugin](https://www.cminds.com/wordpress-p
 
 * Write extra footnotes for any page, post, or other content type.
 * Change how the footnotes appear and work.
-* Use a special code to put the footnotes where you want in the post or page.
+* Use a shortcode to put the footnotes where you want in the post or page.
 * Pick different symbols to connect the footnotes to the text.
 * When you tap on a symbol, it will scroll to the footnote at the end of the page.
 
