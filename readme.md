@@ -12,23 +12,25 @@
 
 This plugin lets you quickly add footnotes to any part of your site, giving your readers more context and information without making your main content messy. It’s simple to use, so you can add footnotes in just a few clicks, making your work of creating content easier.
 
-When you use footnotes on your WordPress site, you can give your readers extra resources, references, or explanations, which can help them understand and engage with your content better. Plus, the plugin works well with mobile devices, so all your users can access your content.
+When you use footnotes on your WordPress site, you can give your readers extra resources, references, or explanations, which can help them understand and engage with your content better. Also, the plugin works well with mobile devices, so all your users can access your content.
 
 ## Installation
 
 1. Move the plugin folder into the `/wp-content/plugins/` folder.
 2. Activate the plugin using the ‘Plugins’ menu in WordPress.
-3. In the admin interface, go to the footnote menu and set up your footnote definitions.
-4. The page title should be the word you want to footnote, and the page body should be its explanation.
-5. If you want, create a main footnote page (like “Footnote”) with no content. If you don’t do this, your words will still be highlighted, but there won’t be a list of all your words.
-6. In the plugin’s settings, you can enter the ID of your main footnote page (this is optional).
-7. There are also other optional settings in the dashboard.
+3. In the admin interface, go to the post or page where you want to add footnotes.
+4. Scroll down and find a metabox ‘CM Footnotes - Definitions’.
+5. Define a footnote ID. ID values can contain only letters, digits, hyphens, underscores, colons and periods.
+6. Add a footnote definition.
+7. Add a shortcode [cm_simple_footnote id="1"] to the needed place in the content to add a footnote link. The "id" of the shortcode must match the id of the definition.
+8. Add more footnote definitions if needed.
+9. Save the changes.
 
 Note: For the footnote JavaScript and CSS to work correctly, your template needs to have a call to wp_head(). If your theme doesn’t support this, you’ll need to manually add links to these files in your theme (though this isn’t recommended).
 
 ## Footnotes Premium Edition
 
-The [Premium version of the Footnotes Plugin](https://www.cminds.com/wordpress-plugins-library/cm-footnotes-plugin-for-wordpress/) includes even more powerful features, such as: import footnotes from a CSV file, choose footnotes style, multiple shortcodes support and much more.
+The [Premium version of the Footnotes Plugin](https://www.cminds.com/wordpress-plugins-library/cm-footnotes-plugin-for-wordpress/) includes even more powerful features, such as: import footnotes from a CSV file, choose footnotes style,  and much more.
 
 ## Free Plan Features
 
@@ -38,7 +40,7 @@ The [Premium version of the Footnotes Plugin](https://www.cminds.com/wordpress-p
 * Change how the footnotes appear and work.
 * Use a shortcode to put the footnotes where you want in the post or page.
 * Pick different symbols to connect the footnotes to the text.
-* When you tap on a symbol, it will scroll to the footnote at the end of the page.
+* When you click on a footnote symbol, it will scroll to the footnote definition below the main content.
 
 </details>
 
@@ -48,11 +50,11 @@ The [Premium version of the Footnotes Plugin](https://www.cminds.com/wordpress-p
 
 > [Pro Version Detailed Features List](https://www.cminds.com/wordpress-plugins-library/cm-footnotes-plugin-for-wordpress/) | [Demo Site](https://jumpstartcto.com/footnote/)
 
-* Lets you go back to the footnotes from the words at the end of the page.
+* Allows users to go back to the footnotes from the definitions at the end of the page.
 * Gives you many ways to change how footnote links, footnote list at the end of the page and tooltips look.
-* Puts dashicons on every footnote. These are next to the words at the end of the page, making your articles nicer.
-* Lets you put links to other websites on each footnote word.
-* Shows words in posts and pages as good-looking tooltips.
+* Ability to add dashicons to every footnote. These are special WordPress icons displayed next to the footnote definitions at the end of the page, making your articles nicer.
+* Lets you put links to other websites on each footnote definition.
+* Shows footnote definitions in posts and pages as good-looking tooltips.
 * Lets you bring in footnotes from a CSV file.
 
 </details>
