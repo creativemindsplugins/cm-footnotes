@@ -18,7 +18,7 @@ When you use footnotes on your WordPress site, you can give your readers extra r
 
 1. Move the plugin folder into the `/wp-content/plugins/` folder.
 2. Activate the plugin using the ‘Plugins’ menu in WordPress.
-3. In the admin interface, go to the footnote menu and set up your footnote words.
+3. In the admin interface, go to the footnote menu and set up your footnote definitions.
 4. The page title should be the word you want to footnote, and the page body should be its explanation.
 5. If you want, create a main footnote page (like “Footnote”) with no content. If you don’t do this, your words will still be highlighted, but there won’t be a list of all your words.
 6. In the plugin’s settings, you can enter the ID of your main footnote page (this is optional).
