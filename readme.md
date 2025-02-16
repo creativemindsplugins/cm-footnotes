@@ -41,7 +41,7 @@ The [Premium version of the Footnotes Plugin](https://www.cminds.com/wordpress-p
 * Use a shortcode to put the footnotes where you want in the post or page.
 * Pick different symbols to connect the footnotes to the text.
 * When you click on a footnote symbol, it will scroll to the footnote definition below the main content.
-* Setup Wizard helps to configure the plugin quickly and easily.
+* Setup Wizard helps configure the plugin quickly and easily.
 
 </details>
 
