@@ -2,7 +2,7 @@
 * Name: CM Footnotes 
 * Contributors: CreativeMindsSolutions
 * Minimum WordPress version: 5.4.0
-* Tested up to WordPress version: 6.6
+* Tested up to WordPress version: 6.7.2
 
 ## Introduction
 
@@ -41,6 +41,7 @@ The [Premium version of the Footnotes Plugin](https://www.cminds.com/wordpress-p
 * Use a shortcode to put the footnotes where you want in the post or page.
 * Pick different symbols to connect the footnotes to the text.
 * When you click on a footnote symbol, it will scroll to the footnote definition below the main content.
+* Setup Wizard helps to configure the plugin quickly and easily.
 
 </details>
 
